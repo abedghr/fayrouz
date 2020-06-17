@@ -13,7 +13,7 @@ while ($rowSet = mysqli_fetch_assoc($result)) {
 ?>
 
 
-<section class="ftco-section goto-here" style="padding: 0px; padding-top:250px;">
+<section class="ftco-section goto-here" style=" padding-top:250px;">
     <div class="container">
         <div class="row">
             <?php
@@ -31,7 +31,7 @@ while ($rowSet = mysqli_fetch_assoc($result)) {
                     <span>{$row1['pro_desc']}</span><br>
                     
                     <h3 style='font-weight:bold; color:red; font-size:15px;' class='mt-2'><strong>{$row1['prod_price']}JD</strong></h3>
-                    <small><center>*Price Dont Include Sales Tax*</center></small>
+                    <small><center>*Price Do not Include Sales Tax*</center></small>
                     
                    
                     <button class='btn btn-primary btn-block mt-2'>Add to Cart</button>
@@ -45,21 +45,7 @@ while ($rowSet = mysqli_fetch_assoc($result)) {
             ?>
 
         </div>
-        <div class="row mt-5">
-            <div class="col text-center">
-                <div class="block-27">
-                    <ul>
-                        <li><a href="#">&lt;</a></li>
-                        <li class="active"><span>1</span></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&gt;</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
